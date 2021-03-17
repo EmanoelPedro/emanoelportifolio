@@ -6,22 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Oregano:ital@0;1&display=swap" rel="stylesheet">
-<link href="https://file.myfontastic.com/VyCtUwh4hffDfDeHduntoS/icons.css" rel="stylesheet">
-    <link rel='stylesheet' href='css/style.css' />
+<link href = "https://file.myfontastic.com/VyCtUwh4hffDfDeHduntoS/icons.css" rel = "stylesheet">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<link rel='stylesheet' href='css/style.css' />
     <title>Emanoel Pedro - Solucoes Digitais</title>
 </head>
 <body>
     <header class="main_header">
-        <div class="main_header_content container">
+        <div class="main_header_content container" >
             <img class="profile" src="img/profile.jpg" alt="">
             <h1 class="title">Emanoel Pedro Cunha De Paula</h1>
             <p>Me chamo Emanoel Pedro, tenho 18 anos, comecei a estudar desenvolvimento web em 2017, e atuo na área<br> desde 2019, me especializando tanto na construção do Front-End, quanto do Back-End de aplicações<br> web. Nesse período também estudei Marketing Digital, e aprimorei minha capacidade de entender as <br>necessidades dos usuários, podendo assim desenvolver soluções mais coerentes. </p>
-            <a href="">Projetos Em Destaque</a>
+            <a href="#projects" class="btn anchor">Projetos Em Destaque</a>
         </div>
     </header>
     <main>
-        <section class="main_projects">
-        <div class="separator"></div>
+        <section class="main_projects" id="projects">
             <h1 class="title">Projetos Em Destaque</h1>
             <div class="projects-container container">
                 <article>
@@ -34,10 +34,10 @@
                     <img src="img/project.svg" alt="">
                 </article>
             </div>
-            <a href="#">Certificados em Destaque</a>
-        </section>
+            <a href="#certificates" class="btn anchor">Certificados em Destaque</a>
+        </section>  
 
-        <section class="main_certificates">
+        <section class="main_certificates" id="certificates">
             <h1 class="title">Certificados Em Destaque</h1>
             <div class="certificates_container">
                 <article><img src="img/project.svg" alt=""></article>
@@ -48,15 +48,16 @@
                 <article><img src="img/project.svg" alt=""></article>
                 <article><img src="img/project.svg" alt=""></article>
                 <article><img src="img/project.svg" alt=""></article>
+                
             </div>
-            <a href="">Carreira Profissional</a>
+            <a href="#professional" class="btn anchor">Carreira Profissional</a>
         </section>
-        <section class="main_professional">
+        <section class="main_professional" id="professional">
             <h1 class="title">Carreira Profissional</h1>
             <article class="professional_item">
                 <img src="img/nexo.png" alt="">
                 <div>
-                    <span>Nexo Agency - Solucoes Digitais</span>
+                    <span>Nexo Agency - soluções digitais</span>
                     <p><span>Cargo</span>: Desenvolvedor Full Stack</p>
                     <p><span>Tempo</span>: 2010 - 2020</p>
                 </div>
@@ -64,18 +65,19 @@
             <article class="professional_item">
                 <img src="img/nexo.png" alt="">
                 <div>
-                    <span>Nexo Agency - Solucoes Digitais</span>
+                    <span>Nexo Agency - soluções digitais</span>
                     <p><span>Cargo</span>: Desenvolvedor Full Stack</p>
                     <p><span>Tempo</span>: 2010 - 2020</p>
                 </div>
             </article>  
+            <a href="#contact" class="btn anchor">Entrar Em Contato</a>
             <span class="separator"></span>
 
         </section>
-        <section class="main_contact">
+        <section class="main_contact" id="contact">
             <h1 class="title">Entre Em Contato</h1>
             <img src="img/mail.png" alt="">
-            <a href="">Entrar Em Contato</a>
+            <a href="mailto:emanoelpedro791@gmail.com" class="btn">Entrar Em Contato</a>
         </section>
     </main>
     <footer class="main_footer">
@@ -86,10 +88,14 @@
             <p>Desenvolvido com Carinho <br>Por @EmanoelPedro</p>
         </div>
         <div class="main_footer_social">
-            <a href="" class="icon-linkedin"></a>
-            <a href="" class="icon-facebook"></a>
-            <a href="" class="icon-instagram"></a>
+            <a href="https://www.linkedin.com/in/emanoel-pedro/" target="_blank" class="icon-linkedin"></a>
+            <a href="https://www.facebook.com/emanoel791" target="_blank" class="icon-facebook"></a>
+            <a href="https://www.instagram.com/emanoel_pedro791/" target="_blank" class="icon-instagram"></a>            
+            <a href="https://www.instagram.com/emanoel_pedro791/" target="_blank" class="icon-angle-down"></a>            
         </div>
+
     </footer>
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>

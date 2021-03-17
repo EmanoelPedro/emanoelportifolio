@@ -43,13 +43,27 @@ header .profile{
     border-radius: 50%;
 }
 
+.btn {
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    color: #fff;
+    padding: 18px 40px;
+    background-color: #FF7E21;
+    border-radius: 7px;
+    margin: 10px auto;
+}
+.btn:hover {
+    transform: scale(1);
+    animation: pulse 2s infinite;
+}
+
+
 .main_header{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-
-    background-image: url('http://localhost/portfolio/img/separator.png');
+    justify-content: space-around;
+    background-image: url('https://emanoelpedro.github.io/emanoelportifolio/img/separator.png');
     background-repeat: no-repeat;
     background-size: 100% 5px;
     background-position: top;
@@ -78,25 +92,11 @@ header .profile{
 
 }
 
-.main_header_content a {
-    text-transform: uppercase;
-    font-size: 1.4rem;
-    color: #fff;
-    padding: 18px 40px;
-    background-color: #FF7E21;
-    border-radius: 7px;
-    margin: 10px auto;
-}
-.main_header_content a:hover {
-    transform: scale(1);
-    animation: pulse 2s infinite;
-}
-
-
 /* SECTION PROJECTS*/
 
 .main_projects {
     display: flex;
+    justify-content: center;
     flex-flow: column wrap;
     min-height: 100vh;
     background: #e4e4e7;
@@ -108,10 +108,12 @@ header .profile{
     margin: 30px auto;
 }
 
+
 .projects-container {
     display: flex;
     width: 100%;
     flex-flow: row wrap;
+    align-content: center; 
     justify-content: space-around;
     margin: 0 auto  ;
 }
@@ -119,27 +121,17 @@ header .profile{
     flex-basis: 20rem;
 }
 
-.main_projects a {
-    text-transform: uppercase;
-    font-size: 1.4rem;
-    color: #fff;
-    padding: 18px 40px;
-    background-color: #FF7E21;
-    border-radius: 7px;
+.main_projects .btn {
     margin: 0 auto;
     margin-top: 60px;   
-
-
-}
-
-.main_projects a:hover {
-    transform: scale(1);
-	animation: pulse 2s infinite;
+    margin-bottom: 60px;   
 }
 
 .main_certificates {
+    height: 100vh;
     display: flex;
-    flex-flow: column wrap;
+    justify-content: center;
+    flex-flow: column;
     background-color: #999;
     padding-top: 40px;
 }
@@ -162,29 +154,20 @@ header .profile{
     margin-top: 0;
 }
 
-.main_certificates a {
-    text-transform: uppercase;
-    font-size: 1.4rem;
-    color: #fff;
-    padding: 18px 40px;
-    background-color: #FF7E21;
-    border-radius: 7px;
+.main_certificates .btn{
     margin: 0 auto;
-    margin-bottom: 20px;
-}
-
-.main_certificates a:hover {
-    transform: scale(1);
-	animation: pulse 2s infinite;
+    margin-bottom: 40px;
 }
 
 .main_professional {
+    min-height: 100vh;
     display: flex;
-    flex-flow: column wrap;
+    justify-content: space-around;
+    flex-flow: column nowrap;
 }
 
 .main_professional .title {
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 .professional_item {
@@ -192,6 +175,11 @@ header .profile{
     flex-flow: row wrap;
     align-items: center;
     margin: 10px auto;
+}
+
+.professional_item img {
+    max-width: 400px;
+    max-height: 200px;
 }
 
 .professional_item div span, .professional_item div > p > span{
@@ -206,12 +194,12 @@ header .profile{
 
 .main_professional .separator {
     background-color: #333;
-    margin-bottom: 50px;    
 }
 
 .main_contact {
+    height: calc(100vh - 24vh);
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
     margin-bottom: 10vh;
@@ -225,17 +213,11 @@ header .profile{
     width: 300px;
 }
 
-.main_contact a {
-    text-transform: uppercase;
-    font-size: 1.4rem;
-    color: #fff;
-    padding: 18px 40px;
-    background-color: #FF7E21;
-    border-radius: 7px;
+.main_contact .btn {
     margin: 10px auto;
 }
 
-.main_contact a:hover {
+.main_contact .btn:hover {
     transform: scale(1);
 	animation: pulse 2s infinite;
 }
@@ -273,6 +255,11 @@ header .profile{
     align-content: center;
 }
 
+.main_footer_social a:hover {
+    color: #FF7E21;
+    transition-duration: 400ms;
+}
+
 .main_footer_social a {
     color: #fff;
     font-size: 2.3rem;
@@ -303,4 +290,10 @@ header .profile{
 		transform: scale(0.95);
 		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
 	}
+}
+
+@media (max-width: 1206px ) and (max-height: 660px) {
+    body{
+        display: none;
+    }
 }
