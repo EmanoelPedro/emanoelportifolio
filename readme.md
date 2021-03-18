@@ -6,7 +6,7 @@
 </p>
 
 <p align="left">
-  🦄 Linguagens: <strong>HTML5,CSS3,JavaScript,PHP</strong>
+    💻 Linguagens: <strong>HTML5,CSS3,JavaScript,PHP</strong>
 </p>
 
 <p align="left">
@@ -14,11 +14,11 @@
 </p>
 
 <p align="left">
-  💌 Entre em contato comigo: ⤵️
+  📱 Entre em contato comigo: ⤵️
 </p>
 
 <p align="left">
-  <a href="mailto:marcosnascimento.dev@gmail.com" alt="Gmail">
+  <a href="mailto:emanoelpedro791@gmail.com.dev@gmail.com" alt="Gmail">
   <img src="https://img.shields.io/badge/-Gmail-FF0000?style=flat-square&labelColor=FF0000&logo=gmail&logoColor=white&link=" /></a>
 
   <a href="https://www.linkedin.com/in/emanoel-pedro/" alt="Linkedin">
