@@ -1,23 +1,35 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Oregano:ital@0;1&display=swap" rel="stylesheet">
-<link href = "https://file.myfontastic.com/VyCtUwh4hffDfDeHduntoS/icons.css" rel = "stylesheet">
-<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-<link rel='stylesheet' href='css/style.css' />
-    <title>Emanoel Pedro - Solucoes Digitais</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oregano:ital@0;1&display=swap" rel="stylesheet">
+    <link href="https://file.myfontastic.com/VyCtUwh4hffDfDeHduntoS/icons.css" rel="stylesheet">
+    <link rel='stylesheet' href='css/style.css' />
+    <title>Emanoel Pedro - Soluções Digitais </title>
 </head>
+
 <body>
-    <header class="main_header">
+    <header class="main_header" id="start">
+            <nav class="menu">
+                <ul>
+                    <li><a href="#start">INÍCIO</a></li>
+                    <li><a href="#projects">PROJETOS</a></li>
+                   <li><a href="#certificates">CERTIFICADOS</a></li>
+                   <li><a href="#professional">PROFISSIONAL</a></li>
+                   <li><a href="#footer">CONTATO</a></li>
+                </ul>
+            </nav>
         <div class="main_header_content container" >
             <img class="profile" src="img/profile.jpg" alt="">
             <h1 class="title">Emanoel Pedro Cunha De Paula</h1>
-            <p>Me chamo Emanoel Pedro, tenho 18 anos, comecei a estudar desenvolvimento web em 2017, e atuo na área<br> desde 2019, me especializando tanto na construção do Front-End, quanto do Back-End de aplicações<br> web. Nesse período também estudei Marketing Digital, e aprimorei minha capacidade de entender as <br>necessidades dos usuários, podendo assim desenvolver soluções mais coerentes. </p>
-            <a href="#projects" class="btn anchor">Projetos Em Destaque</a>
+            <p>Me chamo Emanoel Pedro, tenho 18 anos, comecei a estudar desenvolvimento web em 2017, e atuo na área<br>
+                desde 2019, me especializando tanto na construção do Front-End, quanto do Back-End de aplicações<br>
+                web. Nesse período também estudei Marketing Digital, e aprimorei minha capacidade de entender as
+                <br>necessidades dos usuários, podendo assim desenvolver soluções mais coerentes. </p>
         </div>
     </header>
     <main>
@@ -34,8 +46,7 @@
                     <img src="img/project.svg" alt="">
                 </article>
             </div>
-            <a href="#certificates" class="btn anchor">Certificados em Destaque</a>
-        </section>  
+        </section>
 
         <section class="main_certificates" id="certificates">
             <h1 class="title">Certificados Em Destaque</h1>
@@ -48,9 +59,8 @@
                 <article><img src="img/project.svg" alt=""></article>
                 <article><img src="img/project.svg" alt=""></article>
                 <article><img src="img/project.svg" alt=""></article>
-                
+
             </div>
-            <a href="#professional" class="btn anchor">Carreira Profissional</a>
         </section>
         <section class="main_professional" id="professional">
             <h1 class="title">Carreira Profissional</h1>
@@ -69,18 +79,29 @@
                     <p><span>Cargo</span>: Desenvolvedor Full Stack</p>
                     <p><span>Tempo</span>: 2010 - 2020</p>
                 </div>
-            </article>  
-            <a href="#contact" class="btn anchor">Entrar Em Contato</a>
+            </article>
             <span class="separator"></span>
-
         </section>
-        <section class="main_contact" id="contact">
+        <section class="main_contact">
             <h1 class="title">Entre Em Contato</h1>
             <img src="img/mail.png" alt="">
-            <a href="mailto:emanoelpedro791@gmail.com" class="btn">Entrar Em Contato</a>
-        </section>
+            <a href="mailto:emanoelpedro791@gmail.com" class="btn">Enviar Um E-mail</a>
+        </section> 
+        <!-- <section class="message_modal">
+            <header>
+                <h1>Tem Algum Projeto Em Mente? Envie uma Mensagem!</h1>
+            </header>
+            <form action="">
+                <label>Nome</label>
+                <input type="text" placeholder="Nome:">
+                <label>Instituição</label>
+                <input type="text" placeholder="Instituição:">
+                <label>Mensagem:</label>
+                <textarea name="Mensagem" id="" cols="30" rows="10"></textarea>
+            </form>
+        </section> -->
     </main>
-    <footer class="main_footer">
+    <footer class="main_footer" id="footer">
         <div class="main_footer_terms">
             <a href="">Termos De Uso</a>
         </div>
@@ -90,12 +111,13 @@
         <div class="main_footer_social">
             <a href="https://www.linkedin.com/in/emanoel-pedro/" target="_blank" class="icon-linkedin"></a>
             <a href="https://www.facebook.com/emanoel791" target="_blank" class="icon-facebook"></a>
-            <a href="https://www.instagram.com/emanoel_pedro791/" target="_blank" class="icon-instagram"></a>            
-            <a href="https://www.instagram.com/emanoel_pedro791/" target="_blank" class="icon-angle-down"></a>            
+            <a href="https://www.instagram.com/emanoel_pedro791/" target="_blank" class="icon-instagram"></a>
+            <a href="https://www.instagram.com/emanoel_pedro791/" target="_blank" class="icon-angle-down"></a>
         </div>
 
     </footer>
     <script src="https://emanoelpedro.github.io/emanoelportifolio/js/jquery-3.6.0.js"></script>
-    <script src="https://emanoelpedro.github.io/emanoelportifolio/js/script.js"></script>
+    <script src="js/script.js"></script>
 </body>
+
 </html>
