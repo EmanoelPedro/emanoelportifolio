@@ -21,7 +21,7 @@
   <a href="mailto:emanoelpedro791@gmail.com" alt="Gmail">
   <img src="https://img.shields.io/badge/-Gmail-FF0000?style=flat-square&labelColor=FF0000&logo=gmail&logoColor=white&link=" /></a>
 
-  <a href="https://www.linkedin.com/in/emanoel-pedro/" alt="Linkedin">
+  <a href="https://www.linkedin.com/in/emanoel-pedro/" alt="Linkedin" target="_blanck">
   <img src="https://img.shields.io/badge/-Linkedin-0e76a8?style=flat-square&logo=Linkedin&logoColor=white&link=" /></a>
 
   <a href="https://api.whatsapp.com/send?phone=5586998383189" alt="WhatsApp">
