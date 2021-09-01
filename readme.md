@@ -6,11 +6,11 @@
 </p>
 
 <p align="left">
-    💻 Linguagens: <strong>PHP, HTML5,CSS3,JavaScript</strong>
+    💻 Conhecumento: <strong>PHP, ReactJS, HTML5, CSS3, JavaScript</strong>
 </p>
 
 <p align="left">
-  💼 Ferramentas: <strong>Visual Studio code, PHPStorm, Wordpress , Figma , Git e Github </strong>
+  💼 Ferramentas: <strong> VScode, PHPStorm, Wordpress, Node, Git e Github </strong>
 </p>
 
 <p align="left">
