@@ -33,3 +33,5 @@
   <a href="https://www.instagram.com/emanoel_pedro791/" alt="Instagram" target="_blank">
   <img src="https://img.shields.io/badge/-Instagram-DF0174?style=flat-square&labelColor=DF0174&logo=instagram&logoColor=white&link="/></a>
 </p>  
+
+SPEED NA PRATICA - DESENVOLVEDOR WEB.
