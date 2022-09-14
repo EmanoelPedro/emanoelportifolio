@@ -24,6 +24,6 @@
 
   <a href="https://api.whatsapp.com/send?phone=5586998383189" alt="WhatsApp" target="_blank">
   <img src="https://img.shields.io/badge/-WhatsApp-25d366?style=flat-square&labelColor=25d366&logo=whatsapp&logoColor=white&link="/></a>
-  <a href="https://www.instagram.com/emanoel_pedro791/" alt="Instagram" target="_blank">
+  <a href="https://www.instagram.com/emanoelpedro791/" alt="Instagram" target="_blank">
   <img src="https://img.shields.io/badge/-Instagram-DF0174?style=flat-square&labelColor=DF0174&logo=instagram&logoColor=white&link="/></a>
 </p>  
